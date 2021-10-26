@@ -8,6 +8,8 @@ namespace HTHA1721050883.Models
 {
     public class Person
     {
+        internal object perSonID;
+
         [StringLength(20)]
         [Display(Name = "ID")]
         [Key]

@@ -23,5 +23,10 @@ namespace HTHA1721050883.Models
 
             return strkey;
         }
+
+        internal object GenKey(string v, object personID)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
